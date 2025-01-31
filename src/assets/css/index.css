@@ -1,0 +1,197 @@
+/* Estilo Geral */
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    color: #333;
+    margin-top: 200px;
+}
+
+/* Navbar personalizada */
+.custom-navbar {
+    background-color: white;
+    padding: 15px 0;
+    border-bottom: 4px solid #f5a9d0; /* Linha rosa */
+}
+
+/* Estilização dos links */
+.navbar-nav .nav-link {
+    font-size: 18px; /* Tamanho da fonte aumentado */
+    font-weight: 500;
+    color: #333;
+    margin-left: 15px;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+    color: #f06292; /* Rosa mais forte */
+}
+
+/* Banner */
+header {
+    background-color: #1A237E !important;
+}
+header h1, header p {
+    color: white;
+}
+header .btn-light {
+    background-color: #FFC1E3;
+    color: #1A237E;
+    border: none;
+}
+header .btn-light:hover {
+    background-color: #FF80AB;
+}
+
+/* Quem Somos */
+#sobre h2 {
+    color: #1A237E;
+    font-weight: bold;
+}
+
+/* Serviços */
+#servicos {
+    background-color: #FCE4EC; /* Fundo rosa claro */
+}
+#servicos h2 {
+    color: #1A237E;
+    font-weight: bold;
+}
+.text-primary {
+    color: #1A237E !important;
+}
+
+/* Contato */
+#contato h2 {
+    color: #1A237E;
+    font-weight: bold;
+}
+#contato a {
+    color: #1A237E;
+    font-weight: bold;
+    text-decoration: none;
+}
+#contato a:hover {
+    color: #FF80AB;
+}
+
+/* Formulário */
+.form-control {
+    border-color: #1A237E;
+}
+.btn-primary {
+    background-color: #1A237E;
+    border: none;
+}
+.btn-primary:hover {
+    background-color: #FF80AB;
+    color: white;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    font-size: 14px;
+}
+
+footer .social-icons {
+    margin-top: 10px;
+}
+
+footer .social-icon {
+    font-size: 20px;
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer .social-icon:hover {
+    color: #f06292; /* Rosa suave */
+}
+
+footer .social-icon i {
+    transition: transform 0.3s ease;
+}
+
+footer .social-icon:hover i {
+    transform: scale(1.1);
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+
+.btn {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: white;
+}
+
+.btn-pink {
+    background-color: #f06292;
+    border-color: #f06292;
+    color: white;
+}
+
+.btn:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.btn-pink:hover {
+    background-color: #e91e63;
+    border-color: #e91e63;
+}
+
+.btn:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.btn:hover:after {
+    opacity: 1;
+}
+
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    left: 20px; /* Alterado para o lado esquerdo */
+    z-index: 1000;
+}
+
+.whatsapp-float img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+}
+
+.whatsapp-float img:hover {
+    transform: scale(1.1);
+}
