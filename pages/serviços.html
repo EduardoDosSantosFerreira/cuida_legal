@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,10 +8,54 @@
     <link rel="stylesheet" href="../src/assets/css/bootstrap.min.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../src/assets/css/index.css">
+
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .service-card {
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            margin-bottom: 30px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .service-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        h1 {
+            color: #1A237E;
+            margin-bottom: 40px;
+        }
+
+        h5 {
+            color: #1A237E;
+            font-weight: 600;
+        }
+
+        p {
+            color: #555;
+        }
+    </style>
+
 </head>
 
 <body>
@@ -50,79 +95,69 @@
             </div>
         </div>
     </nav>
-    <style>
-        body {
-            background-color: #f8f9fa;
-            font-family: Arial, sans-serif;
-        }
-        .container {
-            margin-top: 30px;
-            max-width: 900px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        .section {
-            background: #fff;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            margin-bottom: 20px;
-        }
-        .section h2 {
-            background: #1A237E;
-            color: white;
-            padding: 15px;
-            border-radius: 5px;
-            text-align: center;
-            font-size: 1.5em;
-        }
-        .service {
-            padding: 15px;
-            border-bottom: 1px solid #ddd;
-            text-align: center;
-        }
-        .service:last-child {
-            border-bottom: none;
-        }
-        .service strong {
-            font-size: 1.2em;
-            color: #333;
-        }
-        .service p {
-            margin: 5px 0;
-            color: #555;
-        }
-        @media (max-width: 768px) {
-            .section h2 {
-                font-size: 1.2em;
-            }
-            .service strong {
-                font-size: 1em;
-            }
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <div class="section">
-            <h2>Serviços Oferecidos</h2>
-            <div class="service">
-                <strong>Atendimento Domiciliar</strong>
-                <p>Oferecemos suporte e cuidados no conforto do seu lar.</p>
+
+    <div class="container mt-5">
+        <h1 class="text-center">Nossos Serviços</h1>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="service-card">
+                    <img src="../src/assets/img/services/img1.webp" alt="">
+                    <h5>Cuidador de Idosos</h5>
+                    <p>Cuidados especializados para idosos com profissionais treinados.</p>
+                </div>
             </div>
-            <div class="service">
-                <strong>Consultas Especializadas</strong>
-                <p>Equipe de profissionais qualificados para diversas especialidades.</p>
+            <div class="col-md-3">
+                <div class="service-card">
+                    <img src="../src/assets/img/services/img2.webp" alt="">
+                    <h5>Cuidador de Crianças</h5>
+                    <p>Garantimos segurança e desenvolvimento saudável para crianças.</p>
+                </div>
             </div>
-            <div class="service">
-                <strong>Monitoramento 24h</strong>
-                <p>Garantimos segurança e assistência contínua para nossos clientes.</p>
+            <div class="col-md-3">
+                <div class="service-card">
+                    <img src="../src/assets/img/services/img3.webp" alt="">
+                    <h5>Cuidador para PcD</h5>
+                    <p>Atendimento personalizado para pessoas com deficiência.</p>
+                </div>
             </div>
-            <div class="service">
-                <strong>Planos Personalizados</strong>
-                <p>Adapte os serviços de acordo com sua necessidade.</p>
+            <div class="col-md-3">
+                <div class="service-card">
+                    <img src="../src/assets/img/services/img4.webp" alt="">
+                    <h5>Fonoaudiologia</h5>
+                    <p>Atendimento domiciliar especializado para reabilitação fonoaudiológica.</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="service-card">
+                    <img src="../src/assets/img/services/img5.webp" alt="">
+                    <h5>Nutricionista</h5>
+                    <p>Consultas nutricionais no conforto do seu lar.</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="service-card">
+                    <img src="../src/assets/img/services/img6.webp" alt="">
+                    <h5>Terapia Ocupacional</h5>
+                    <p>Fisioterapia e terapia ocupacional para reabilitação e qualidade de vida.</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="service-card">
+                    <img src="../src/assets/img/services/img7.webp" alt="">
+                    <h5>Psicologia</h5>
+                    <p>Atendimento psicológico para suporte emocional e bem-estar.</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="service-card">
+                    <img src="../src/assets/img/services/img08.jpg" alt="">
+                    <h5>Cuidados Pós-Operatórios</h5>
+                    <p>Acompanhamento especializado no período de recuperação.</p>
+                </div>
             </div>
         </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
