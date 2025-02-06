@@ -5,6 +5,41 @@ body {
     margin-top: 200px;
 }
 
+/* Carrossel */
+.carousel-img {
+    height: 40dvi; /* Ajuste para melhor responsividade */
+    object-fit: cover;
+}
+
+/* Centraliza e ajusta os elementos do carrossel */
+.carousel-container {
+    text-align: center; /* Centraliza o conteúdo */
+}
+
+/* Título */
+.carousel-title {
+    display: inline-block;
+    font-size: 2dvi;
+    font-weight: 700;
+    color: #FFFFFF;
+    background-color: #283593;
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Subtítulo */
+.carousel-text {
+    display: inline-block;
+    font-size: 1dvi;
+    color: #222;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 8px 16px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+
 /* Navbar personalizada */
 .custom-navbar {
     background-color: white;
@@ -24,22 +59,6 @@ body {
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link:hover {
     color: #f06292; /* Rosa mais forte */
-}
-
-/* Banner */
-header {
-    background-color: #1A237E !important;
-}
-header h1, header p {
-    color: white;
-}
-header .btn-light {
-    background-color: #FFC1E3;
-    color: #1A237E;
-    border: none;
-}
-header .btn-light:hover {
-    background-color: #FF80AB;
 }
 
 /* Quem Somos */
@@ -86,41 +105,6 @@ header .btn-light:hover {
     background-color: #FF80AB;
     color: white;
 }
-
-footer {
-    background-color: #222;
-    color: white;
-    font-size: 14px;
-}
-
-footer .social-icons {
-    margin-top: 10px;
-}
-
-footer .social-icon {
-    font-size: 20px;
-    margin: 0 10px;
-    color: white;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-footer .social-icon:hover {
-    color: #f06292; /* Rosa suave */
-}
-
-footer .social-icon i {
-    transition: transform 0.3s ease;
-}
-
-footer .social-icon:hover i {
-    transform: scale(1.1);
-}
-
-footer p {
-    margin-bottom: 10px;
-}
-
 
 .btn {
     position: relative;
@@ -177,6 +161,7 @@ footer p {
     opacity: 1;
 }
 
+/* Whats Icon */
 .whatsapp-float {
     position: fixed;
     bottom: 20px;
@@ -194,4 +179,41 @@ footer p {
 
 .whatsapp-float img:hover {
     transform: scale(1.1);
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #222;
+    color: white;
+    font-size: 14px;
+}
+
+footer .social-icons {
+    margin-top: 10px;
+}
+
+footer .social-icon {
+    font-size: 20px;
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer .social-icon:hover {
+    color: #f06292; /* Rosa suave */
+}
+
+footer .social-icon i {
+    transition: transform 0.3s ease;
+}
+
+footer .social-icon:hover i {
+    transform: scale(1.1);
+}
+
+footer p {
+    margin-bottom: 10px;
 }
