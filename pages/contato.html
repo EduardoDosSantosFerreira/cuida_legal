@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cuida Legal | Contato</title>
+    <link rel="stylesheet" href="../src/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../src/assets/css/index.css">
+</head>
+
+<body>
+        <!-- Navbar Inferior (Preenchida com as informações da navbar superior) -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="../src/assets/img/cuidalegal-logo.webp" width="200px" alt="Logo Cuida Legal" class="logo-placeholder">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="serviços.html">Serviços</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="unidades.html">Unidades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contato.html">Trabalhe Conosco</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contato.html">Entre em Contato</a>
+                        </li>
+                        <div class="ms-3">
+                            <a href="contato.html" class="btn btn-primary me-2 mb-2">Cuidadores de idosos e enfermos</a>
+                            <a href="contato.html" class="btn btn-pink">Seja franqueado</a>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    <!-- Contato -->
+    <section class="container py-5" style="margin-top: 100px;">
+        <h2 class="text-center mb-4">Entre em Contato Conosco</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <form id="contatoForm">
+                    <div class="mb-3">
+                        <label for="tipo" class="form-label">Tipo</label>
+                        <select class="form-select" id="tipo" required>
+                            <option value="" disabled selected>Selecione uma opção</option>
+                            <option value="cuidador">Cuidador</option>
+                            <option value="franquia">Franquiado</option>
+                            <option value="cliente">Cliente</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="nome" class="form-label">Nome</label>
+                        <input type="text" class="form-control" id="nome" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="mensagem" class="form-label">Mensagem</label>
+                        <textarea class="form-control" id="mensagem" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Enviar</button>
+                </form>
+            </div>
+            <div class="col-md-6 d-flex flex-column align-items-center justify-content-center">
+                <p><i class="fas fa-phone-alt me-2"></i> (13) 99661-9491</p>
+                <p><i class="fas fa-envelope me-2"></i> contato@cuidalegal.com</p>
+                <p><i class="fas fa-map-marker-alt me-2"></i> Rua Exemplo, 123, Cidade - Estado</p>
+            </div>
+        </div>
+    </section>
+
+<!-- Start of Selection -->
+ <div class="container">
+<div class="embed-responsive" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+    <video class="embed-responsive-item" controls style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+        <source src="../src/assets/video/video02.mp4" type="video/mp4">
+    </video>
+</div>
+</div>
+<br>
+<!-- End of Selection -->
+    <!-- Rodapé -->
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <p>&copy; 2025 Cuida Legal - Todos os direitos reservados</p>
+            <div class="d-flex justify-content-center gap-3">
+                <a href="#" class="text-white"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-white"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../src/assets/js/script.js"></script>
+</body>
+
+</html>
